@@ -16,8 +16,12 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start:dev": "sh -ac '. .env.dev; react-scripts start'",
+    "build:dev": "sh -ac '. .env.dev; react-scripts build'",
+    "start:uat": "sh -ac '. .env.uat; react-scripts start'",
+    "build:uat": "sh -ac '. .env.uat; react-scripts build'",
+    "start:prod": "sh -ac '. .env.prod; react-scripts start'",
+    "build:prod": "sh -ac '. .env.prod; react-scripts build'",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "lint": "eslint . --ext .js,.jsx && npx prettier --write ."
