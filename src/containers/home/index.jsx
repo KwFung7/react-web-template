@@ -1,5 +1,6 @@
 import logo from '../../logo.svg';
 import { useTranslation } from 'react-i18next';
+import './style.scss';
 
 const Home = () => {
   const { t } = useTranslation();
