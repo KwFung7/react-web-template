@@ -1,49 +1,49 @@
 @font-face {
-    font-family: 'Roboto-Bold';
-    src: url('./assets/font/Roboto-Bold.ttf');
+  font-family: 'Roboto-Bold';
+  src: url('./assets/font/Roboto-Bold.ttf');
 }
 
 @font-face {
-    font-family: 'Roboto-Light';
-    src: url('./assets/font/Roboto-Light.ttf');
+  font-family: 'Roboto-Light';
+  src: url('./assets/font/Roboto-Light.ttf');
 }
 
 @font-face {
-    font-family: 'Roboto-Medium';
-    src: url('./assets/font/Roboto-Medium.ttf');
+  font-family: 'Roboto-Medium';
+  src: url('./assets/font/Roboto-Medium.ttf');
 }
 
 @font-face {
-    font-family: 'Roboto-Regular';
-    src: url('./assets/font/Roboto-Regular.ttf');
+  font-family: 'Roboto-Regular';
+  src: url('./assets/font/Roboto-Regular.ttf');
 }
 
 @font-face {
-    font-family: 'Roboto-Thin';
-    src: url('./assets/font/Roboto-Thin.ttf');
+  font-family: 'Roboto-Thin';
+  src: url('./assets/font/Roboto-Thin.ttf');
 }
 
 @font-face {
-    font-family: 'NotoSansHK-Bold';
-    src: url('./assets/font/NotoSansHK-Bold.otf');
+  font-family: 'NotoSansHK-Bold';
+  src: url('./assets/font/NotoSansHK-Bold.otf');
 }
 
 @font-face {
-    font-family: 'NotoSansHK-Light';
-    src: url('./assets/font/NotoSansHK-Light.otf');
+  font-family: 'NotoSansHK-Light';
+  src: url('./assets/font/NotoSansHK-Light.otf');
 }
 
 @font-face {
-    font-family: 'NotoSansHK-Medium';
-    src: url('./assets/font/NotoSansHK-Medium.otf');
+  font-family: 'NotoSansHK-Medium';
+  src: url('./assets/font/NotoSansHK-Medium.otf');
 }
 
 @font-face {
-    font-family: 'NotoSansHK-Regular';
-    src: url('./assets/font/NotoSansHK-Regular.otf');
+  font-family: 'NotoSansHK-Regular';
+  src: url('./assets/font/NotoSansHK-Regular.otf');
 }
 
 @font-face {
-    font-family: 'NotoSansHK-Thin';
-    src: url('./assets/font/NotoSansHK-Thin.otf');
+  font-family: 'NotoSansHK-Thin';
+  src: url('./assets/font/NotoSansHK-Thin.otf');
 }

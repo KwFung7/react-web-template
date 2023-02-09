@@ -4,11 +4,7 @@ import './style.scss';
 const Home = () => {
   const { t } = useTranslation();
 
-  return (
-    <div className="homepage-container">
-      Homepage Test
-    </div>
-  );
+  return <div className="homepage-container">Homepage Test</div>;
 };
 
 export default Home;
