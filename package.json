@@ -6,6 +6,8 @@
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
     "i18next": "^22.4.9",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -13,18 +15,15 @@
     "react-router-dom": "^6.8.1",
     "react-scripts": "5.0.1",
     "sass": "^1.58.0",
+    "typescript": "^4.9.5",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start:dev": "sh -ac '. .env.dev; react-scripts start'",
-    "build:dev": "sh -ac '. .env.dev; react-scripts build'",
-    "start:uat": "sh -ac '. .env.uat; react-scripts start'",
-    "build:uat": "sh -ac '. .env.uat; react-scripts build'",
-    "start:prod": "sh -ac '. .env.prod; react-scripts start'",
-    "build:prod": "sh -ac '. .env.prod; react-scripts build'",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "lint": "eslint . --ext .js,.jsx && npx prettier --write ./src"
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx && npx prettier --write ./src"
   },
   "eslintConfig": {
     "extends": [
